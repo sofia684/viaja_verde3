@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inria Sans", sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/fondo3.png");
+    background-size: cover;
+    background-position: center;
+}
+/* Apuntamos a la barra de navegacion que esta dentro de header */
+header nav{
+    /* background: rgb(132, 0, 255); */
+    display: flex;
+    /* height: 400px; */
+    width:100% ;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+header ul a{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 20px;
+    text-decoration: none;
+}
+header ul a:hover{
+    color: #4e9f3d;
+}
+#hero{
+    /* background-color:  rgb(132, 0, 255) ; */
+    text-align: center;
+    margin-top: 100px;
+}
+#hero h2{
+    color: #4E9F3D;
+    font-size: 100px;
+}
+#hero h1{
+    color:#ffffff;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+main{
+    width: 100%;
+    position: relative;
+}
+#Tours{
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+    background-color: #191A19;
+    color: #D8E9A8;
+}
+#Tours h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #4E9F3D;
+}
+#Tours p{
+    font-size: 25px;
+    color: #D8E9A8;
+}
+#Tours .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#Tours button {
+    background-color: #1E5128;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#Tours button:hover {
+    background-color: #4e9f3d;
+}
+#Tours article {
+    background-color: #080808;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+#Descubre{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/lago.png");
+    background-size: cover;
+    background-position: center;
+}
+#Descubre{
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+#Descubre h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #1E5128 ;
+}
+#Descubre p{
+    font-size: 25px;
+    color: #ffffff;
+}
+#Descubre .fila1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;  
+}
+#Destinos {
+    padding: 100px;
+    background-color: #000000;
+}
+
+#Destinos h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: #1E5128;
+}
+
+#Destinos h3 {
+    font-size: 30px;
+    margin: 20px 0;
+    color: #D8E9A8;
+}
+
+#Destinos p {
+    font-size: 20px;
+    color: #6bdf53;
+}
+
+#Destinos a {
+    font-size: 16px;
+    color: #D8E9A8;
+}
+
+#Destinos .fila {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+#sobrenosotros{
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+    background-color: #191A19;
+    color: #D8E9A8;    
+}
+#sobrenosotros h2{
+    font-size: 50px;
+    color: #4E9F3D;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#sobrenosotros p{
+    font-size: 25px;
+    color: #D8E9A8;
+    text-align: left;
+}
+
+#Reserva {
+    background-color: #333533;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#Reserva h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #4E9F3D ;
+}
+#Reserva form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#Reserva form label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #D8E9A8;
+    font-size: 35px;
+}
+
+#Reserva form input,
+#Reserva form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#Reserva form button {
+    margin-top: 20px;
+    background-color: #1E5128;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Reserva form button:hover {
+    background-color: #4E9F3D;
+}
+
+footer{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 5%;
+    font-size: 20px;
+}
